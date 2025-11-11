@@ -29,6 +29,7 @@ A brief overview of the above mentioned classification algorithms is given below
 * `Disadvantages` Computationally expensive for large datasets during prediction time, as it calculates the distance to every training point. Highly susceptible to `curse of dimensionality`. Requires feature scaling to prevent features with large values from dominating the distance calculation.
 ---
 ## 📁 Repository Structure
+* `.github/` - Contains GitHub-related configuration files, including feedback and workflow settings from GitHub Classroom.
 * `MNIST_train.csv` - Dataset on which the classification algorithms are trained.
 * `MNIST_validation.csv` - Dataset on which the classification algorithms are validated to assess their performance (here, F1 score).
 * `README.md` - Markdown file describing the repository contents, usage, instructions for implementation, and a sample output.
