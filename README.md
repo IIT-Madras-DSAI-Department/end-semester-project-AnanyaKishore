@@ -59,7 +59,7 @@ All experiments are runnable from the command line.
 * Open a terminal and navigate to the directory in question.
 * To train the models and predict the classes, the Python script of concern is `main.py`.
   * In order to run this script, it is necessary to have `algorithms.py` also downloaded into the same directory.
-  * This is because the function `read_data()` and the classes `PCAModel()`, `BaggingSoftmaxClassifier()`, `XGBoostMultiClassifier()`, `RandomForest()` and `KNNClassifier()` are called from `main.py`.
+  * This is because the function `read_data()` and the classes `PCAModel()`, `BaggingSoftmaxClassifier()`, `XGBoostMultiClassifier()`, `RandomForest()` and `KNNClassifier()` are called from `algorithms.py`.
 * After the requisite measures are taken, on your terminal, run `python main.py`
 * The script does not require any user input.
 * To evaluate these algorithms on `MNIST_test.csv`, the user is required to make slight modifications to the code:
