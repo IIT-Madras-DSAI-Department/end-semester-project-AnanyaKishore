@@ -77,7 +77,7 @@ if __name__ == "__main__":
     'RandomForest': (RandomForest, {'n_trees': 50, 'max_depth': 8, 'min_samples_split': 5, 'n_classes': 10, 'max_features': 40}),
     'KNN': (KNNClassifier, {'k': 5})}
         
-    ensemble_weights = {'Softmax': 40, 'XGBoost': 10, 'RandomForest': 10, 'KNN': 40}
+    ensemble_weights = {'Softmax': 35, 'XGBoost': 10, 'RandomForest': 10, 'KNN': 45}
     
     ensemble = WeightedEnsemble(model_configurations, ensemble_weights)
     ensemble.fit(Xtrain, ytrain)
